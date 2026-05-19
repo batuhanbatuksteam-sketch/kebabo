@@ -177,7 +177,7 @@ export default function Menu() {
       {/* ── HEADER ── */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img src="/ozel-yemek.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pom.jpg" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/65 to-[#0a0a0c]/95" />
         {/* Ember glow */}

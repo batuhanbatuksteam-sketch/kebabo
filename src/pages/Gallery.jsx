@@ -2,9 +2,10 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const photos = [
-  { src: 'ozel-yemek.jpg', alt: 'Kebabo Özel Yemek'    },
-  { src: 'meze.jpg',       alt: 'Kebabo 14 Çeşit Meze' },
-  { src: 'pizza.jpg',      alt: 'Kebabo Lezzetler'     },
+  { src: 'tombik.jpg',    alt: 'Kebabo Tombik Döner'  },
+  { src: 'vegan.jpg',     alt: 'Kebabo Vegan Seçenek' },
+  { src: 'pizza-yeni.jpg',alt: 'Kebabo Pizza'          },
+  { src: 'pom.jpg',       alt: 'Kebabo Pom Döner'     },
 ]
 
 function masonryColumns(items, cols = 3) {

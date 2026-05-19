@@ -74,7 +74,7 @@ export default function Home() {
       <section ref={heroRef} className="relative h-screen min-h-[640px] overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0 scale-110">
           <img
-            src="/ozel-yemek.jpg"
+            src="/tombik.jpg"
             alt="Kebabo — Premium Döner"
             className="w-full h-full object-cover"
           />
@@ -242,14 +242,15 @@ export default function Home() {
             <p className="font-sans text-xs tracking-[0.25em] uppercase text-amber-500 font-semibold mb-3">Galeri</p>
             <h2 className="font-display text-5xl font-bold text-zinc-100 uppercase">Lezzetin Görüntüsü</h2>
           </FadeUp>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { src: '/ozel-yemek.jpg', alt: 'Kebabo Özel Yemek'    },
-              { src: '/meze.jpg',       alt: 'Kebabo 14 Çeşit Meze' },
-              { src: '/pizza.jpg',      alt: 'Kebabo Lezzetler'     },
+              { src: '/tombik.jpg',     alt: 'Kebabo Tombik Döner'  },
+              { src: '/vegan.jpg',      alt: 'Kebabo Vegan Seçenek' },
+              { src: '/pizza-yeni.jpg', alt: 'Kebabo Pizza'          },
+              { src: '/pom.jpg',        alt: 'Kebabo Pom Döner'     },
             ].map((p, i) => (
-              <FadeUp key={p.src} delay={i * 0.15}>
-                <div className="gallery-card aspect-[4/5] rounded-3xl overflow-hidden shadow-card">
+              <FadeUp key={p.src} delay={i * 0.1}>
+                <div className="gallery-card aspect-[3/4] rounded-2xl overflow-hidden shadow-card">
                   <img src={p.src} alt={p.alt} className="w-full h-full object-cover" />
                 </div>
               </FadeUp>
@@ -272,7 +273,7 @@ export default function Home() {
       {/* ── QUOTE BANNER ── */}
       <section className="py-24 bg-[#070709] relative overflow-hidden">
         <div className="absolute inset-0 opacity-8">
-          <img src="/ozel-yemek.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pom.jpg" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/70" />
         {/* Decorative ember glow */}

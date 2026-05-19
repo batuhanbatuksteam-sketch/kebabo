@@ -28,10 +28,10 @@ function FadeUp({ children, delay = 0, className = '' }) {
 }
 
 const stats = [
-  { num: '2024',  label: 'Kuruluş Yılı',    icon: '✦' },
-  { num: '7/7',   label: 'Her Gün Açık',    icon: '🔥' },
-  { num: '100%',  label: 'Taze Malzeme',    icon: '🥩' },
-  { num: '14+',   label: 'Çeşit Meze',      icon: '🍽️' },
+  { num: '7/7',   label: 'Her Gün Açık',        icon: '🔥' },
+  { num: '100%',  label: 'Taze Malzeme',         icon: '🥩' },
+  { num: '14+',   label: 'Çeşit Meze',           icon: '🍽️' },
+  { num: '∞',     label: 'Lezzet Garantisi',     icon: '✦' },
 ]
 
 const amenities = [
@@ -48,7 +48,7 @@ export default function About() {
       {/* PAGE HEADER */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-15">
-          <img src="/ozel-yemek.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/tombik.jpg" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/60 to-[#0a0a0c]/92" />
         {/* Ember glow */}
@@ -79,7 +79,7 @@ export default function About() {
             {/* Image collage */}
             <FadeUp delay={0} className="relative h-[560px]">
               <div className="absolute top-0 left-0 w-3/4 h-4/5 rounded-3xl overflow-hidden shadow-card-hover border border-amber-900/20">
-                <img src="/ozel-yemek.jpg" alt="Kebabo iç mekan" className="w-full h-full object-cover" />
+                <img src="/vegan.jpg" alt="Kebabo lezzetleri" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
               <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-2xl overflow-hidden shadow-card border-2 border-kebaboCard">
@@ -101,7 +101,7 @@ export default function About() {
               </FadeUp>
               <FadeUp delay={0.3}>
                 <p className="font-sans text-base text-zinc-400 leading-relaxed">
-                  Kebabo, 2024 yılında Tuzla İçmeler'de döner ve et kültürünü yeniden yorumlamak amacıyla kapılarını açtı. Kurucularımızın temel felsefesi netti: sıradan değil, gerçek.
+                  Kebabo, Tuzla İçmeler'de döner ve et kültürünü yeniden yorumlamak amacıyla kapılarını açtı. Kurucularımızın temel felsefesi netti: sıradan değil, gerçek.
                 </p>
               </FadeUp>
               <FadeUp delay={0.4}>

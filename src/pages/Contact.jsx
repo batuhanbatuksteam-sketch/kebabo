@@ -32,7 +32,7 @@ export default function Contact() {
       {/* Header */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-15">
-          <img src="/ozel-yemek.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pizza-yeni.jpg" alt="" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/65 to-[#0a0a0c]/95" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-16 bg-amber-600/10 blur-3xl" />
