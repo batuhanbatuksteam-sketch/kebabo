@@ -177,7 +177,7 @@ export default function Menu() {
       {/* ── HEADER ── */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img src="/pom.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pom-guncel.jpeg" alt="Kebabo Pom Döner" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/65 to-[#0a0a0c]/95" />
         {/* Ember glow */}
@@ -305,7 +305,7 @@ export default function Menu() {
               </div>
             </div>
             <div className="relative rounded-3xl overflow-hidden aspect-video shadow-card-hover border border-amber-900/20">
-              <img src="/meze.jpg" alt="14 Çeşit Meze" className="w-full h-full object-cover" />
+              <img src="/meze.jpg" alt="14 Çeşit Meze" loading="lazy" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 bg-kebaboCard/90 backdrop-blur-sm rounded-xl px-4 py-3 border border-amber-800/20">
                 <p className="font-display text-sm font-bold text-amber-400 uppercase tracking-wide">14 Çeşit Meze</p>

@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const photos = [
-  { src: 'tombik.jpg',    alt: 'Kebabo Tombik Döner'  },
-  { src: 'vegan.jpg',     alt: 'Kebabo Vegan Seçenek' },
-  { src: 'pizza-yeni.jpg',alt: 'Kebabo Pizza'          },
-  { src: 'pom.jpg',       alt: 'Kebabo Pom Döner'     },
+  { src: 'tombik-guncel.jpeg',    alt: 'Kebabo Tombik Döner'  },
+  { src: 'vegan-guncel.jpeg',     alt: 'Kebabo Vegan Seçenek' },
+  { src: 'pizza-guncel.jpeg',alt: 'Kebabo Pizza'          },
+  { src: 'pom-guncel.jpeg',       alt: 'Kebabo Pom Döner'     },
 ]
 
 function masonryColumns(items, cols = 3) {
@@ -44,7 +44,7 @@ export default function Gallery() {
       {/* Header */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-20">
-          <img src="/meze.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/meze.jpg" alt="Kebabo 14 Çeşit Meze" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/60 to-[#0a0a0c]/92" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-20 bg-amber-600/10 blur-3xl" />

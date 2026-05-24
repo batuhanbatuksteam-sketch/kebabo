@@ -48,7 +48,7 @@ export default function About() {
       {/* PAGE HEADER */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-15">
-          <img src="/tombik.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/tombik-guncel.jpeg" alt="Kebabo Tombik Döner" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/60 to-[#0a0a0c]/92" />
         {/* Ember glow */}
@@ -79,11 +79,11 @@ export default function About() {
             {/* Image collage */}
             <FadeUp delay={0} className="relative h-[560px]">
               <div className="absolute top-0 left-0 w-3/4 h-4/5 rounded-3xl overflow-hidden shadow-card-hover border border-amber-900/20">
-                <img src="/vegan.jpg" alt="Kebabo lezzetleri" className="w-full h-full object-cover" />
+                <img src="/vegan-guncel.jpeg" alt="Kebabo lezzetleri" loading="lazy" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               </div>
               <div className="absolute bottom-0 right-0 w-1/2 h-1/2 rounded-2xl overflow-hidden shadow-card border-2 border-kebaboCard">
-                <img src="/meze.jpg" alt="Kebabo meze" className="w-full h-full object-cover" />
+                <img src="/meze.jpg" alt="Kebabo meze" loading="lazy" className="w-full h-full object-cover" />
               </div>
               {/* amber dot accent */}
               <div className="absolute top-1/2 left-3/4 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-amber-gradient shadow-amber animate-float" />

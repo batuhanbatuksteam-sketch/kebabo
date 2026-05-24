@@ -4,21 +4,81 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/kebabo-logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Kebabo — Tuzla İçmeler'in premium döner ve et restoranı. Odun ateşinde pişirilmiş et ve tavuk lezzetleri, 14 çeşit meze." />
-    <meta name="keywords" content="kebabo, döner, et restoranı, tuzla, içmeler, premium döner, istanbul" />
-    <title>Kebabo — Premium Döner & Et Restoranı | Tuzla</title>
 
-    <!-- Open Graph Data -->
+    <!-- SEO -->
+    <title>Kebabo — Tuzla İçmeler'in Premium Döner & Et Restoranı | Odun Ateşinde Lezzet</title>
+    <meta name="description" content="Kebabo — Tuzla İçmeler'in premium döner ve et restoranı. Odun ateşinde pişirilmiş et ve tavuk lezzetleri, 14 çeşit taze meze. İçmeler Mah. Çağdaş Sk. B Blok, Tuzla/İstanbul." />
+    <meta name="keywords" content="kebabo, döner, et restoranı, tuzla, içmeler, premium döner, istanbul, odun ateşi, pom döner, tombik döner, meze" />
+    <link rel="canonical" href="https://kebabo.com.tr/" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Kebabo" />
     <meta property="og:title" content="Kebabo — Premium Döner & Et Restoranı | Tuzla" />
     <meta property="og:description" content="Kebabo — Tuzla İçmeler'in premium döner ve et restoranı. Odun ateşinde pişirilmiş et ve tavuk lezzetleri, 14 çeşit meze." />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="restaurant" />
     <meta property="og:image" content="https://kebabo.com.tr/kebabo-logo.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://kebabo.com.tr/" />
+    <meta property="og:locale" content="tr_TR" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kebabo — Premium Döner & Et Restoranı | Tuzla" />
+    <meta name="twitter:description" content="Tuzla İçmeler'in premium döner ve et restoranı. Odun ateşinde pişirilmiş lezzetler, 14 çeşit meze." />
+    <meta name="twitter:image" content="https://kebabo.com.tr/kebabo-logo.png" />
+
+    <!-- Schema: LocalBusiness / Restaurant -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Kebabo",
+      "description": "Tuzla İçmeler'in premium döner ve et restoranı. Odun ateşinde pişirilmiş et ve tavuk lezzetleri, 14 çeşit meze.",
+      "url": "https://kebabo.com.tr",
+      "telephone": "+905393881262",
+      "image": "https://kebabo.com.tr/kebabo-logo.png",
+      "logo": "https://kebabo.com.tr/kebabo-logo.png",
+      "priceRange": "₺₺",
+      "servesCuisine": ["Türk Mutfağı", "Döner", "Et"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "İçmeler Mah. Çağdaş Sk. B Blok",
+        "addressLocality": "Tuzla",
+        "addressRegion": "İstanbul",
+        "postalCode": "34953",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.849506,
+        "longitude": 29.300191
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+          "opens": "11:00",
+          "closes": "22:00"
+        }
+      ],
+      "hasMap": "https://www.google.com/maps?q=40.849506,29.300191",
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Google Analytics (GA4) — Ölçüm kimliğinizi G-XXXXXXXXXX ile değiştirin -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script> -->
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+

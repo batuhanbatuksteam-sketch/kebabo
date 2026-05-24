@@ -32,7 +32,7 @@ export default function Contact() {
       {/* Header */}
       <section className="relative py-32 bg-[#0a0a0c] overflow-hidden">
         <div className="absolute inset-0 opacity-15">
-          <img src="/pizza-yeni.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pizza-guncel.jpeg" alt="Kebabo İletişim" loading="lazy" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0c]/65 to-[#0a0a0c]/95" />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-80 h-16 bg-amber-600/10 blur-3xl" />
@@ -79,8 +79,25 @@ export default function Contact() {
                   <div>
                     <p className="font-sans text-xs font-semibold text-amber-500 uppercase tracking-wider mb-1">Adres</p>
                     <p className="font-sans text-sm text-zinc-400 leading-relaxed">
-                      İçmeler Mahallesi<br />
-                      34953 Tuzla / İstanbul
+                      İçmeler Mah. Çağdaş Sk. B Blok<br />
+                      Tuzla / İstanbul
+                    </p>
+                  </div>
+                </div>
+
+                {/* Phone */}
+                <div className="flex gap-4 p-5 rounded-2xl bg-kebaboCard border border-amber-900/20 hover:border-amber-700/35 transition-colors duration-300">
+                  <div className="w-11 h-11 rounded-xl bg-amber-500/10 border border-amber-500/15 flex items-center justify-center flex-shrink-0">
+                    <svg className="w-5 h-5 text-amber-400" fill="none" stroke="currentColor" strokeWidth="1.8" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.896-1.596-5.273-3.973-6.869-6.869l1.293-.97c.362-.271.527-.733.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="font-sans text-xs font-semibold text-amber-500 uppercase tracking-wider mb-1">Telefon</p>
+                    <p className="font-sans text-sm text-zinc-400 leading-relaxed">
+                      <a href="tel:+905393881262" className="hover:text-amber-400 transition-colors">
+                        0 (539) 388 12 62
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -229,7 +246,7 @@ export default function Contact() {
                   <div className="absolute bottom-4 left-4 right-4 flex items-end justify-between">
                     <div className="bg-kebaboCard/95 backdrop-blur-sm rounded-xl px-4 py-3 shadow-card border border-amber-900/25">
                       <p className="font-sans text-xs font-semibold text-zinc-200">📍 Kebabo</p>
-                      <p className="font-sans text-xs text-zinc-500 mt-0.5">İçmeler, Tuzla / İstanbul</p>
+                      <p className="font-sans text-xs text-zinc-500 mt-0.5">İçmeler Mah. Çağdaş Sk. B Blok, Tuzla / İstanbul</p>
                     </div>
                     <a
                       href="https://www.google.com/maps?q=40.849506,29.300191"

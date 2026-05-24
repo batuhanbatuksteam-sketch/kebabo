@@ -74,7 +74,7 @@ export default function Home() {
       <section ref={heroRef} className="relative h-screen min-h-[640px] overflow-hidden">
         <motion.div style={{ y: heroY }} className="absolute inset-0 scale-110">
           <img
-            src="/tombik.jpg"
+            src="/tombik-guncel.jpeg"
             alt="Kebabo — Premium Döner"
             className="w-full h-full object-cover"
           />
@@ -189,7 +189,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <FadeUp delay={0} className="relative">
               <div className="relative rounded-3xl overflow-hidden aspect-[4/5] shadow-card-hover">
-                <img src="/meze.jpg" alt="Kebabo 14 Çeşit Meze" className="w-full h-full object-cover" />
+                <img src="/meze.jpg" alt="Kebabo 14 Çeşit Meze" loading="lazy" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
               </div>
               {/* floating badge */}
@@ -244,14 +244,14 @@ export default function Home() {
           </FadeUp>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {[
-              { src: '/tombik.jpg',     alt: 'Kebabo Tombik Döner'  },
-              { src: '/vegan.jpg',      alt: 'Kebabo Vegan Seçenek' },
-              { src: '/pizza-yeni.jpg', alt: 'Kebabo Pizza'          },
-              { src: '/pom.jpg',        alt: 'Kebabo Pom Döner'     },
+              { src: '/tombik-guncel.jpeg',     alt: 'Kebabo Tombik Döner'  },
+              { src: '/vegan-guncel.jpeg',      alt: 'Kebabo Vegan Seçenek' },
+              { src: '/pizza-guncel.jpeg',      alt: 'Kebabo Pizza'          },
+              { src: '/pom-guncel.jpeg',        alt: 'Kebabo Pom Döner'     },
             ].map((p, i) => (
               <FadeUp key={p.src} delay={i * 0.1}>
                 <div className="gallery-card aspect-[3/4] rounded-2xl overflow-hidden shadow-card">
-                  <img src={p.src} alt={p.alt} className="w-full h-full object-cover" />
+                  <img src={p.src} alt={p.alt} loading="lazy" className="w-full h-full object-cover" />
                 </div>
               </FadeUp>
             ))}
@@ -273,7 +273,7 @@ export default function Home() {
       {/* ── QUOTE BANNER ── */}
       <section className="py-24 bg-[#070709] relative overflow-hidden">
         <div className="absolute inset-0 opacity-8">
-          <img src="/pom.jpg" alt="" className="w-full h-full object-cover" />
+          <img src="/pom-guncel.jpeg" alt="Kebabo Pom Döner" loading="lazy" className="w-full h-full object-cover" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/70" />
         {/* Decorative ember glow */}

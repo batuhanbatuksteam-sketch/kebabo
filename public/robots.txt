@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kebabo.com.tr/sitemap.xml
